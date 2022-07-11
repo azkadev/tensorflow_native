@@ -1,2 +1,13 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Tensfor flow lite
+
+Example
+```dart
+import 'dart:ffi';
+
+import 'package:ffi/ffi.dart';
+import 'package:tensorflow_native/tensorflow_native.dart';
+void main(List<String> arguments) {
+  TensorFlowLite tflite = TensorFlowLite("/usr/lib/tensorflow64.so");
+  print(tflite.tfLiteVersion);
+}
+```

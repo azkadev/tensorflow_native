@@ -1,10 +1,16 @@
-import 'dart:ffi' as ffi;
+import 'dart:ffi';
+
+import 'package:ffi/ffi.dart';
 
 class TensorFlowLite {
   late String pathTensorFlowLite;
   TensorFlowLite(this.pathTensorFlowLite);
 
-  ffi.DynamicLibrary load() {
-    return ffi.DynamicLibrary.open(pathTensorFlowLite);
+  DynamicLibrary tensorFlowLitePathFile() {
+    return DynamicLibrary.open(pathTensorFlowLite);
+  }
+
+  String get tfLiteVersion {
+    return tensorFlowLitePathFile().lookupFunction<Pointer<Utf8> Function(), Pointer<Utf8> Function()>('TfLiteVersion').call().toDartString();
   }
 }
