@@ -1,4 +1,2 @@
-# Tensor Flow Lite
-
-Library untuk berinteraksi dengan tensorflow
-# tensorflow_native
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
