@@ -1,13 +1,11 @@
-# Tensfor flow lite
+IyBUZW5zZm9yIGZsb3cgbGl0ZQoKRXhhbXBsZQpgYGBkYXJ0CmltcG9ydCAn
+ZGFydDpmZmknOwoKaW1wb3J0ICdwYWNrYWdlOmZmaS9mZmkuZGFydCc7Cmlt
+cG9ydCAncGFja2FnZTp0ZW5zb3JmbG93X25hdGl2ZS90ZW5zb3JmbG93X25h
+dGl2ZS5kYXJ0JzsKdm9pZCBtYWluKExpc3Q8U3RyaW5nPiBhcmd1bWVudHMp
+IHsKICBUZW5zb3JGbG93TGl0ZSB0ZmxpdGUgPSBUZW5zb3JGbG93TGl0ZSgi
+L3Vzci9saWIvdGVuc29yZmxvdzY0LnNvIik7CiAgcHJpbnQodGZsaXRlLnRm
+TGl0ZVZlcnNpb24pOwp9CmBgYA==
 
-Example
-```dart
-import 'dart:ffi';
-
-import 'package:ffi/ffi.dart';
-import 'package:tensorflow_native/tensorflow_native.dart';
-void main(List<String> arguments) {
-  TensorFlowLite tflite = TensorFlowLite("/usr/lib/tensorflow64.so");
-  print(tflite.tfLiteVersion);
-}
-```
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
